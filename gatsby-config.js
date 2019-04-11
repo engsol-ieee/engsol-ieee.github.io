@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: "/site",
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
+    title: `Engenharia Solidária`,
     description: `Gatsby starter styled with Tailwind`,
     author: `@taylorbryant`
   },

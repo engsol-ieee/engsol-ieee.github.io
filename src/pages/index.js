@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import catAndHumanIllustration from "../images/cat-and-human-illustration.svg";
+import catAndHumanIllustration from "../images/logo.png";
 
 function IndexPage() {
   return (
@@ -20,18 +20,15 @@ function IndexPage() {
         />
 
         <h2 className="bg-yellow inline-block my-8 p-3">
-          Hey there! Welcome to your first Gatsby site.
+          Projeto Engenharia Solidária - ComSoc - IEEE Belém.
         </h2>
 
-        <p className="leading-loose">
-          This is a barebones starter for Gatsby styled using{" "}
-          <a
-            href="https://tailwindcss.com/"
+        <p>
+        Participe dos nossos eventos e contribua com doações de alimentos não perecíveis como forma de contribuição para instituições de caridade e campanhas de doações para grupos em vulnerabilidade social. Mais informações sobre os eventos organizados <a href="/contact" 
             className="font-bold no-underline text-grey-darkest"
-          >
-            Tailwind
-          </a>
-          , a utility-first CSS framework.
+        >
+            aqui
+        </a>
         </p>
       </div>
     </Layout>

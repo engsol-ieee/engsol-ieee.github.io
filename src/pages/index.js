@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import catAndHumanIllustration from "../images/logo.png";
+import logo from "../images/logo.png";
 
 function IndexPage() {
   return (
@@ -14,9 +14,9 @@ function IndexPage() {
 
       <div className="text-center">
         <img
-          src={catAndHumanIllustration}
+          src={logo}
           className="block mx-auto w-1/2"
-          alt="Cat and human sitting on a couch"
+          alt="Engenharia Solidária Logo"
         />
 
         <h2 className="bg-yellow inline-block my-8 p-3">

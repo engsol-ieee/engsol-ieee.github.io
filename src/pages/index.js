@@ -24,7 +24,7 @@ function IndexPage() {
         </h2>
 
         <p>
-        Participe dos nossos eventos e contribua com doações de alimentos não perecíveis como forma de contribuição para instituições de caridade e campanhas de doações para grupos em vulnerabilidade social. Mais informações sobre os eventos organizados <a href="/contact" 
+        Participe dos nossos eventos e contribua com doações de alimentos não perecíveis como forma de contribuição para instituições de caridade e campanhas de doações para grupos em vulnerabilidade social. Mais informações sobre os eventos organizados <a href="/events" 
             className="font-bold no-underline text-grey-darkest"
         >
             aqui

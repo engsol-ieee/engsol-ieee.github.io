@@ -8,7 +8,7 @@ function AboutPage() {
   return (
     <Layout>
       <SEO
-        title="About"
+        title="Sobre"
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
       />
 

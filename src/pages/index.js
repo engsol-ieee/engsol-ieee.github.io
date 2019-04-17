@@ -2,11 +2,12 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import logo from "../images/logo.png";
+import logo from "../images/logo-3-bk.png";
 
 function IndexPage() {
   return (
-    <Layout>
+      <nav className="bg-meugrey">    
+      <Layout>
       <SEO
         title="Inicio"
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
@@ -32,6 +33,7 @@ function IndexPage() {
         </p>
       </div>
     </Layout>
+    </nav>
   );
 }
 

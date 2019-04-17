@@ -5,7 +5,7 @@ import SEO from "../components/seo";
 
 function ContactPage() {
   return (
-    <nav className="bg-grey">
+    <nav className="bg-meugrey">
     <Layout>
       <SEO
         title="Eventos"

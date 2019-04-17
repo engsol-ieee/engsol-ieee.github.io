@@ -6,9 +6,9 @@ function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <nav className="bg-purple">
+    <nav className="bg-white">
       <div className="flex flex-wrap items-center justify-between max-w-xl mx-auto p-4 md:p-8">
-        <Link to="/" className="flex items-center no-underline text-white">
+        <Link to="/" className="flex items-center no-underline text-black">
           {/* <svg
             className="fill-current h-8 mr-2 w-8"
             width="54"
@@ -43,21 +43,21 @@ function Header({ siteTitle }) {
           <div className="text-sm">
             <Link
               to="/"
-              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-white"
+              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-black"
             >
               Início
             </Link>
 
             <Link
               to="/about"
-              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-black"
             >
               Sobre
             </Link>
 
             <Link
               to="/events"
-              className="block md:inline-block mt-4 md:mt-0 no-underline text-white"
+              className="block md:inline-block mt-4 md:mt-0 no-underline text-black"
             >
               Eventos
             </Link>

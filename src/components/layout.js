@@ -24,13 +24,13 @@ function Layout({ children }) {
             {children}
           </div>
 
-          <footer className="bg-purple">
+          <footer className="bg-white">
             <div className="flex justify-between max-w-xl mx-auto p-4 md:p-8 text-sm">
-              <p className="text-white">
+              <p className="text-black">
                 Created by{" "}
                 <a
                   href=""
-                  className="font-bold no-underline text-white"
+                  className="font-bold no-underline text-black"
                 >
                   ComSoc - IEEE Belém
                 </a>
@@ -39,7 +39,7 @@ function Layout({ children }) {
               <p>
                 <a
                   href="https://github.com/engsol-ieee"
-                  className="font-bold no-underline text-white"
+                  className="font-bold no-underline text-black"
                 >
                   GitHub
                 </a>

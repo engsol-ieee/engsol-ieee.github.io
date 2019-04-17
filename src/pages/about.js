@@ -6,6 +6,7 @@ import dogIllustration from "../images/dog-illustration.svg";
 
 function AboutPage() {
   return (
+    <nav className="bg-meugrey">    
     <Layout>
       <SEO
         title="Sobre"
@@ -28,6 +29,7 @@ function AboutPage() {
         </div>
       </div>
     </Layout>
+    </nav>
   );
 }
 

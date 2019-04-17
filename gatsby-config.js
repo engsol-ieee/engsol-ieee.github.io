@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     title: `Engenharia Solidária`,
     description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`
+    author: `@taylorbryant`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

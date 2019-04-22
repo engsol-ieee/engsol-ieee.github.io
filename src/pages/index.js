@@ -33,7 +33,7 @@ function IndexPage() {
             aqui
         </a>
         </p>
-        <br /><br /><br /><br />
+        <br /><br />
         <h2>Organizadores:</h2>
           <img
             src={ufpa}

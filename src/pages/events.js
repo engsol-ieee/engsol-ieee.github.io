@@ -11,7 +11,7 @@ function ContactPage() {
         title="Eventos"
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
       />
-      <div>
+      <div className="text-white">
       <h1>Próximos Eventos:</h1>
       <br /><br />
       <h2>XX/04/2019 - Git para Iniciantes: Conhecimentos básicos de Git para quem está começando</h2>

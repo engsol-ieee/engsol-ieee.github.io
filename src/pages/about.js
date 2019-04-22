@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import comsocLogo from "../images/comsoc_logo.png";
+import comsocLogo from "../images/comsoc-logo.png";
 
 function AboutPage() {
   return (
@@ -10,7 +10,7 @@ function AboutPage() {
     <Layout>
       <SEO
         title="Sobre"
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`engenharia`, `solidária`, `ufpa`, `ieee`]}
       />
 
       <div className="flex flex-col md:flex-row items-center">

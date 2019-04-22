@@ -9,7 +9,7 @@ function ContactPage() {
     <Layout>
       <SEO
         title="Eventos"
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`engenharia`, `solidária`, `ufpa`, `ieee`]}
       />
       <div className="text-white">
       <h1>Próximos Eventos:</h1>

@@ -3,6 +3,8 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import logo from "../images/logo-3-bk.png";
+import ufpa from "../images/ufpa-logo.png";
+import comsoc from "../images/comsoc-logo.png";
 
 function IndexPage() {
   return (
@@ -10,7 +12,7 @@ function IndexPage() {
       <Layout>
       <SEO
         title="Inicio"
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`engenharia`, `solidária`, `ufpa`, `ieee`]}
       />
 
       <div className="text-white text-center">
@@ -31,6 +33,19 @@ function IndexPage() {
             aqui
         </a>
         </p>
+        <br /><br /><br /><br />
+        <h2>Organizadores:</h2>
+          <img
+            src={ufpa}
+            className="mx-auto w-1/4 align-middle"
+            alt="Engenharia Solidária Logo"
+          />
+          <img
+            src={comsoc}
+            className="mx-auto w-1/4 align-middle"
+            alt="Engenharia Solidária Logo"
+          />
+
       </div>
     </Layout>
     </nav>

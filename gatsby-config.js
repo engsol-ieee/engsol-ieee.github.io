@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/",
+  pathPrefix: "/engsol-ieee.github.io",
   siteMetadata: {
     title: `Engenharia Solidária`,
     description: `Gatsby starter styled with Tailwind`,

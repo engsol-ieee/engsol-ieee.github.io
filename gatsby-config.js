@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/site",
+  pathPrefix: "/",
   siteMetadata: {
     title: `Engenharia Solidária`,
     description: `Gatsby starter styled with Tailwind`,

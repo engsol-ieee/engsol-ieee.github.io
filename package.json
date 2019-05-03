@@ -38,7 +38,7 @@
     "serve": "gatsby serve",
     "test": "echo \"no test specified\" && exit 0",
     "preDeploy": "gatsby build --prefix-paths",
-    "deploy": "npm run preDeploy && gh-pages -d public"
+    "deploy": "npm run preDeploy && gh-pages -d public -b master"
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
